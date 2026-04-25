@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hola Mundo DevOps 🚀💥");
+  res.send("Hola Mundo DevOps 🚀");
 });
 
 // IMPORTANTE: usar el puerto dinámico de Render
